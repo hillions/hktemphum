@@ -31,12 +31,13 @@ A summary of the program flow:
 - Start the HomeKit server
 
 Adding to HomeKit:
-- Ensure the **hktemphum serivce** is running
+- Ensure the **hktemphum** service is running
 - Ensure the Raspberry Pi is connected to Wifi
 - Open Home on an iPhone or iPad
 - Click the **+** and **Add Accessory**
 - Choose **More options...**
 - Select the **thermometer1** accessory
+- Input the pin defined in `main.go`
 - Add the thermometer and hygrometer
 
 ## Parts List
