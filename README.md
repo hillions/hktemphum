@@ -30,6 +30,15 @@ A summary of the program flow:
     - Wait 5 minutes for the next reading
 - Start the HomeKit server
 
+Adding to HomeKit:
+- Ensure the **hktemphum serivce** is running
+- Ensure the Raspberry Pi is connected to Wifi
+- Open Home on an iPhone or iPad
+- Click the **+** and **Add Accessory**
+- Choose **More options...**
+- Select the **thermometer1** accessory
+- Add the thermometer and hygrometer
+
 ## Parts List
 - 100k ohm resistor
 - 2N2222 transistor
