@@ -19,15 +19,11 @@ This project would not be possible without the prior work done in these Go packa
 TODO
 
 ## Parts List
-100k ohm resistor
-
-2N2222 transistor
-
-DHT22 temperature and humidity sensor
-
-Raspberry Pi Zero 2 W
-
-Blank PCB / Wire / Soldering Kit
+- 100k ohm resistor
+- 2N2222 transistor
+- DHT22 temperature and humidity sensor
+- Raspberry Pi Zero 2 W
+- Blank PCB / Wire / Soldering Kit
 
 ## Wiring Diagram
 Raspberry Pi GPIO pinouts: https://pinout.xyz
