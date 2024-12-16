@@ -40,7 +40,7 @@ Building for Raspberry Pi on an M2 MacBook Pro:
 `env GOOS=linux GOARCH=arm go build`
 
 ## Linux Service
-Copy `hktemphum` to `/opt/hktemphum`
+After building, copy `hktemphum` to `/opt/hktemphum`
 
 Edit `/lib/systemd/system/hktemphum.service`
 
