@@ -30,11 +30,9 @@ Raspberry Pi Zero 2 W
 Blank PCB / Wire / Soldering Kit
 
 ## Wiring Diagram
-https://pinout.xyz
+Helpful Raspberry Pi GPIO pinout diagram: https://pinout.xyz
 
 ![circuit diagram](hktemphum.png?raw=true)
-
-TODO
 
 ## Build
 Building for Raspberry Pi on an M2 MacBook Pro:
