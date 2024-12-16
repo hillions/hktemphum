@@ -4,6 +4,8 @@ Building an Apple HomeKit integration for the DHT22 Temperature and Humidity sen
 ## Description
 There aren't many reliable thermometers/hygrometers (humidity sensor) available for HomeKit which do not require their own bridge. This project shows how to build one based on a Raspberry Pi and the DHT22 sensor which is commonly available. Since the Raspberry Pi is powered via DC, a wall converter or battery can power the system.
 
+![DHT22](DHT22.png?raw=true)
+
 A simple transistor switch is used to power down the sensor when not in use to conserve power. The system first turns on the sensor and then waits to take a reading. Once a clean reading is taken, the sensor is powered off for an interval.
 
 ## References
@@ -31,7 +33,7 @@ A summary of the program flow:
 ## Parts List
 - 100k ohm resistor
 - 2N2222 transistor
-- DHT22 temperature and humidity sensor
+- DHT22 sensor (pull down resistor included)
 - Raspberry Pi Zero 2 W
 - Blank PCB / Wire / Soldering Kit
 
