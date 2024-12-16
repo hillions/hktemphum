@@ -8,7 +8,7 @@ import (
 	"github.com/brutella/hap/service"
 )
 
-// Added a new kind of accessory "Hygrometer" (Humidity Sensor) since the hap library doesn't yet include this
+// Added a new kind of accessory "Hygrometer" (Humidity Sensor) since the hap package doesn't yet include this
 type Hygrometer struct {
 	*accessory.A
 	HumiditySensor *service.HumiditySensor
