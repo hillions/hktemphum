@@ -31,7 +31,7 @@ Raspberry Pi GPIO pinouts: https://pinout.xyz
 ![circuit diagram](hktemphum.png?raw=true)
 
 ## Build
-Building for Raspberry Pi on an M2 MacBook Pro:
+It is suggested to build the binary executable and then copy to the Raspberry Pi. For example, to build for Raspberry Pi on Apple silicon:
 
 `env GOOS=linux GOARCH=arm go build`
 
