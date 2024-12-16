@@ -1,20 +1,22 @@
 # HomeKit Temperature and Humidity Sensor
 Building a HomeKit integration for the DHT22 Temperature/Humidity sensor and a Raspberry Pi. Connects over Wifi - no bridge required.
 
-# Description
+## Description
 TODO
 
-# References
-[go-dht](https://github.com/MichaelS11/go-dht)
+## References
+This project would not be possible without the prior work done in these Go packages:
 
-[go-rpio](https://github.com/stianeikeland/go-rpio)
+[go-dht](https://github.com/MichaelS11/go-dht) - reading the DHT22 sensor
 
-[hap](https://github.com/brutella/hap)
+[go-rpio](https://github.com/stianeikeland/go-rpio) - basic handling of GPIO pins
 
-# Configuration
+[hap](https://github.com/brutella/hap) - allowing for the development of HomeKit accessories
+
+## Configuration
 TODO
 
-# Parts List
+## Parts List
 100k ohm resistor
 
 2N2222 transistor
@@ -25,10 +27,10 @@ Raspberry Pi Zero 2 W
 
 Blank PCB
 
-# Wiring Diagram
+## Wiring Diagram
 TODO
 
-# Build
+## Build
 Building for Raspberry Pi on an M2 MacBook Pro:
 
 `env GOOS=linux GOARCH=arm go build`
