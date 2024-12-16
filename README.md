@@ -25,7 +25,7 @@ DHT22 temperature and humidity sensor
 
 Raspberry Pi Zero 2 W
 
-Blank PCB
+Blank PCB / Wire / Soldering Kit
 
 ## Wiring Diagram
 TODO
