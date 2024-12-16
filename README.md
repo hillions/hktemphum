@@ -40,5 +40,26 @@ Building for Raspberry Pi on an M2 MacBook Pro:
 `env GOOS=linux GOARCH=arm go build`
 
 ## Linux Service
-TODO
+Copy `hktemphum` to `/opt/hktemphum`
+
+Edit `/lib/systemd/system/hktemphum.service`
+
+```
+[Unit]
+Description=Temperature and Humidity HomeKit Integration
+[Service]
+Type=simple
+Restart=always
+RestartSec=60s
+WorkingDirectory=/opt/hktemphum
+ExecStart=/opt/hktemphum/hktemphum
+[Install]
+WantedBy=multi-user.target
+```
+
+Enable the service `systemctl enable hktemphum`
+
+Start the service `systemctl start hktemphum`
+
+Service status `systemctl status hktemphum`
 
