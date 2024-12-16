@@ -4,6 +4,13 @@ Building a HomeKit integration for the DHT22 Temperature/Humidity sensor and a R
 # Description
 TODO
 
+# References
+[go-dht](https://github.com/MichaelS11/go-dht)
+
+[go-rpio](https://github.com/stianeikeland/go-rpio)
+
+[hap](https://github.com/brutella/hap)
+
 # Configuration
 TODO
 
