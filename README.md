@@ -4,7 +4,7 @@ Building a HomeKit integration for the DHT22 Temperature/Humidity sensor and a R
 ## Description
 There aren't many reliable temperature/humidity sensors available for HomeKit which do not require their own bridge. This project details how to build one based on a Raspberry Pi and the DHT22 sensor which is commonly available. Since the Raspberry Pi is powered via DC, one could use either a wall AC/DC converter (recommended) or battery to power the sensor.
 
-A simple transistor switch is used to power down the sensor when not in use. The system first turns on the sensor and then waits to take a reading. Once a clean reading is taken, the sensor is powered off for an interval.
+A simple transistor switch is used to power down the sensor when not in use to conserve power. The system first turns on the sensor and then waits to take a reading. Once a clean reading is taken, the sensor is powered off for an interval.
 
 ## References
 This project would not be possible without the prior work done in these Go packages:
