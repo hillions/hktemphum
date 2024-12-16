@@ -1,5 +1,5 @@
-# HomeKit Temperature and Humidity Sensor
-Building a HomeKit integration for the DHT22 Temperature and Humidity sensor and a Raspberry Pi. Connects over Wifi - no bridge required.
+# Apple HomeKit Temperature and Humidity Sensor
+Building an Apple HomeKit integration for the DHT22 Temperature and Humidity sensor and a Raspberry Pi. Connects over Wifi - no bridge required.
 
 ## Description
 There aren't many reliable thermometers/hygrometers (humidity sensor) available for HomeKit which do not require their own bridge. This project shows how to build one based on a Raspberry Pi and the DHT22 sensor which is commonly available. Since the Raspberry Pi is powered via DC, a wall converter or battery can power the system.
