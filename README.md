@@ -9,7 +9,7 @@ There aren't many reliable thermometers/hygrometers (humidity sensor) available 
 A simple transistor switch is used to power down the sensor when not in use to conserve power. The system first turns on the sensor and then waits to take a reading. Once a clean reading is taken, the sensor is powered off for an interval.
 
 ## References
-This project would not be possible without the prior work done in these Go packages:
+This project would not be possible without the prior work done in these fantastic Go packages:
 
 [go-dht](https://github.com/MichaelS11/go-dht) - reading the DHT22 sensor
 
