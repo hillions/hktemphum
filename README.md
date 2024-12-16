@@ -4,6 +4,9 @@ Building a HomeKit integration for the DHT22 Temperature/Humidity sensor and a R
 # Description
 TODO
 
+# Configuration
+TODO
+
 # Parts List
 100k ohm resistor
 
@@ -15,7 +18,7 @@ Raspberry Pi Zero 2 W
 
 Blank PCB
 
-# Wiring
+# Wiring Diagram
 TODO
 
 # Build
