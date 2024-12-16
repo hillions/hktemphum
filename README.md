@@ -1,8 +1,8 @@
 # HomeKit Temperature and Humidity Sensor
-Building a HomeKit integration for the DHT22 Temperature/Humidity sensor and a Raspberry Pi. Connects over Wifi - no bridge required.
+Building a HomeKit integration for the DHT22 Temperature and Humidity sensor and a Raspberry Pi. Connects over Wifi - no bridge required.
 
 ## Description
-There aren't many reliable temperature/humidity sensors available for HomeKit which do not require their own bridge. This project shows how to build one based on a Raspberry Pi and the DHT22 sensor which is commonly available. Since the Raspberry Pi is powered via DC, a wall converter or battery can power the system.
+There aren't many reliable thermometers/hygrometers (humidity sensor) available for HomeKit which do not require their own bridge. This project shows how to build one based on a Raspberry Pi and the DHT22 sensor which is commonly available. Since the Raspberry Pi is powered via DC, a wall converter or battery can power the system.
 
 A simple transistor switch is used to power down the sensor when not in use to conserve power. The system first turns on the sensor and then waits to take a reading. Once a clean reading is taken, the sensor is powered off for an interval.
 
@@ -16,7 +16,17 @@ This project would not be possible without the prior work done in these Go packa
 [hap](https://github.com/brutella/hap) - allowing for the development of HomeKit accessories
 
 ## Configuration
-TODO
+A summary of the program flow:
+- Set up the thermometer HomeKit accessory
+- Set up the hygrometer HomeKit accessory
+- Start a loop to retrieve the temperature and humdity from the sensor
+    - Set the control pin to high, turning on the sensor
+    - Wait 3 seconds for the sensor to stabilize
+    - Read the sensor data until a valid reading is obtained 
+    - Set the control pin to low, turning off the sensor
+    - Update the HomeKit accessories with the sensor data
+    - Wait 5 minutes for the next reading
+- Start the HomeKit server
 
 ## Parts List
 - 100k ohm resistor
