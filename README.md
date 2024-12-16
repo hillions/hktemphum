@@ -32,7 +32,7 @@ Blank PCB / Wire / Soldering Kit
 ## Wiring Diagram
 https://pinout.xyz
 
-[![circuit diagram](https://github.com/hillions/hktemphum/hktemphum.png)](https://github.com/hillions/hktemphum/blob/main/hktemphum.png)
+![circuit diagram](hktemphum.png?raw=true)
 
 TODO
 
