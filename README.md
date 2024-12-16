@@ -15,7 +15,7 @@ This project would not be possible without the prior work done in these Go packa
 
 [go-rpio](https://github.com/stianeikeland/go-rpio) - basic handling of GPIO pins
 
-[hap](https://github.com/brutella/hap) - allowing for the development of HomeKit accessories
+[hap](https://github.com/brutella/hap) - development of HomeKit accessories
 
 ## Configuration
 A summary of the program flow:
