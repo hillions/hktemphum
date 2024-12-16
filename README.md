@@ -33,7 +33,7 @@ A summary of the program flow:
 ## Parts List
 - 100k ohm resistor
 - 2N2222 transistor
-- DHT22 sensor (pull down resistor included)
+- DHT22 sensor package (pull down resistor included)
 - Raspberry Pi Zero 2 W
 - Blank PCB / Wire / Soldering Kit
 
