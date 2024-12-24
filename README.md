@@ -41,7 +41,7 @@ Adding to HomeKit:
 - Add the thermometer and hygrometer
 
 ## Parts List
-- 100k ohm resistor
+- 10k ohm resistor
 - 2N2222 transistor
 - DHT22 sensor package (pull down resistor included)
 - Raspberry Pi Zero 2 W
